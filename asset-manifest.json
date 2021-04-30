@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Personal-website/static/css/main.84c677d8.chunk.css",
+    "main.js": "/Personal-website/static/js/main.1f709eb0.chunk.js",
+    "main.js.map": "/Personal-website/static/js/main.1f709eb0.chunk.js.map",
+    "runtime-main.js": "/Personal-website/static/js/runtime-main.5e48dd7e.js",
+    "runtime-main.js.map": "/Personal-website/static/js/runtime-main.5e48dd7e.js.map",
+    "static/js/2.5e8af2cc.chunk.js": "/Personal-website/static/js/2.5e8af2cc.chunk.js",
+    "static/js/2.5e8af2cc.chunk.js.map": "/Personal-website/static/js/2.5e8af2cc.chunk.js.map",
+    "static/js/3.ea39e545.chunk.js": "/Personal-website/static/js/3.ea39e545.chunk.js",
+    "static/js/3.ea39e545.chunk.js.map": "/Personal-website/static/js/3.ea39e545.chunk.js.map",
+    "index.html": "/Personal-website/index.html",
+    "static/css/main.84c677d8.chunk.css.map": "/Personal-website/static/css/main.84c677d8.chunk.css.map",
+    "static/js/2.5e8af2cc.chunk.js.LICENSE.txt": "/Personal-website/static/js/2.5e8af2cc.chunk.js.LICENSE.txt",
+    "static/media/BaliExpress.e9cf3fa4.png": "/Personal-website/static/media/BaliExpress.e9cf3fa4.png",
+    "static/media/EntryPageStyles.css": "/Personal-website/static/media/LeagueSpartan-Bold.caadcad8.otf",
+    "static/media/HTMLCSSLogo.fdd549b9.png": "/Personal-website/static/media/HTMLCSSLogo.fdd549b9.png",
+    "static/media/PythonLogo.d92e7fea.png": "/Personal-website/static/media/PythonLogo.d92e7fea.png",
+    "static/media/ReactLogo.20ec11c4.png": "/Personal-website/static/media/ReactLogo.20ec11c4.png",
+    "static/media/cLogo.0d5edacc.svg": "/Personal-website/static/media/cLogo.0d5edacc.svg",
+    "static/media/myPictureSmaller.ec069540.jpg": "/Personal-website/static/media/myPictureSmaller.ec069540.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e48dd7e.js",
+    "static/js/2.5e8af2cc.chunk.js",
+    "static/css/main.84c677d8.chunk.css",
+    "static/js/main.1f709eb0.chunk.js"
+  ]
+}
