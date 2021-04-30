@@ -1,4 +1,4 @@
-import { Avatar, Card, CardContent, Divider, Grid, Typography } from '@material-ui/core';
+import { Avatar, Card, CardContent, Divider, Grid, makeStyles, Typography } from '@material-ui/core';
 import SchoolIcon from '@material-ui/icons/School';
 import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
 import FitnessCenterIcon from '@material-ui/icons/FitnessCenter';
@@ -17,11 +17,20 @@ const education = 'I\'m currently studying Computer Science at University of New
 
 const funFact = 'Fun fact, I also have a Diploma of Design from UTS. Where I wanted to pursue Animation and VFX before switching over to Computer Science.'
 
-const personalInfo = 'I\'m a hardworking and dedicated individual, eager to build something that benefits society.I work very well in a team, where my strengths lie in interpersonal skills, and leadership.I love to learn new things, and am not afraid to take on something outside of my comfort zone.'
+const personalInfo = 'I\'m a hardworking and dedicated individual, eager to build something that benefits society.I work very well in a team, where my strengths lie in interpersonal skills, and leadership.I love to learn new things, and am not afraid to take on something outside of my comfort zone. I\'m into modifying cars, motorsport, cooking, and gymming too.'
 
 const extracurricular = 'I\'m also an active participant in my Universities extracurricular!'
 
+const useStyles = makeStyles(() => ({
+    infoText: {
+        padding: '1em',
+        height: '100%',
+    }
+}))
+
 const AboutMe = () => {
+    
+    const classes = useStyles();
     
     return(
     <article className="page-container">
@@ -31,7 +40,7 @@ const AboutMe = () => {
             </Grid>
             <Grid container item direction="row" spacing={9} justify="center">
                 <Grid item xs={4}>
-                    <InfoCard>
+                    <InfoCard className={classes.infoContainer}>
                         <Avatar>
                             <Grid container item direction="row" justify="center" alignItems="center">
                                 <Grid item >
@@ -40,18 +49,18 @@ const AboutMe = () => {
                             </Grid>
                         </Avatar> 
                         <Divider />
-                        <Typography variant="body1">{education}</Typography>
-                        <Typography variant="body1">{funFact}</Typography>
+                        <Typography variant="body1" className={classes.infoText}>{education}</Typography>
+                        <Typography variant="body1" className={classes.infoText}>{funFact}</Typography>
                     </InfoCard>
                 </Grid>
-                <Grid item xs={4}>
-                    <InfoCard>
+                <Grid item xs={4} >
+                    <InfoCard className={classes.infoContainer}>
                         <Avatar>
                             <EmojiPeopleIcon fontSize="large" />
                         </Avatar>
                         <Divider />
-                        <Typography variant="body1">{personalInfo}</Typography>
-                        <Typography variant="body1">{extracurricular}</Typography>
+                        <Typography variant="body1" className={classes.infoText}>{personalInfo}</Typography>
+                        <Typography variant="body1" className={classes.infoText}>{extracurricular}</Typography>
                     </InfoCard>
                 </Grid>                
                 <Grid item xs={6}>

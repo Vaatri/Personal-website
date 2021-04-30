@@ -6,6 +6,7 @@ import ProjectLinks from './pages/ProjectLinks';
 import React from 'react';
 import ExtracurricularPage from './pages/ExtracurricularPage';
 import BaliExpressPage from './pages/BaliExpressPage';
+import Footer from './pages/Footer';
 
 function App() {
   React.useEffect(() => {
@@ -20,6 +21,7 @@ function App() {
           <AboutMe />
           <ProjectLinks />
           <ExtracurricularPage />
+          <Footer />
         </Route>
         <Route path="/baliexpress">
             <BaliExpressPage />
