@@ -7,7 +7,7 @@ const InfoCard = ({children, redirect}) => {
     return (<Card>
         <div>
             {children}
-        <Link onClick={redirect} component="button">Find out more</Link>
+        {/* <Link onClick={redirect} component="button">Find out more</Link> */}
         </div>
     </Card>) 
 }

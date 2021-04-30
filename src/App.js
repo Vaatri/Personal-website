@@ -1,9 +1,11 @@
 import './App.css';
 import EntryPage from './pages/EntryPage';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AboutMe from './pages/AboutMe';
 import ProjectLinks from './pages/ProjectLinks';
 import React from 'react';
+import ExtracurricularPage from './pages/ExtracurricularPage';
+import BaliExpressPage from './pages/BaliExpressPage';
 
 function App() {
   React.useEffect(() => {
@@ -12,9 +14,17 @@ function App() {
   
   return (
     <Router>
-      <EntryPage />
-      <AboutMe />
-      <ProjectLinks />
+      <Switch>
+        <Route path="/Personal-website">
+          <EntryPage />
+          <AboutMe />
+          <ProjectLinks />
+          <ExtracurricularPage />
+        </Route>
+        <Route path="/baliexpress">
+            <BaliExpressPage />
+        </Route>
+      </Switch>
     </Router>
   );
 }
