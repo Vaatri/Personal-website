@@ -1,7 +1,7 @@
 import { Avatar, Card, CardContent, Divider, Grid, Typography } from '@material-ui/core';
-import SchoolIcon from '@material-ui/icons/School';
-import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
-import FitnessCenterIcon from '@material-ui/icons/FitnessCenter';
+// import SchoolIcon from '@material-ui/icons/School';
+// import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
+// import FitnessCenterIcon from '@material-ui/icons/FitnessCenter';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import InfoCard from '../Components/InfoCard';
@@ -35,7 +35,7 @@ const AboutMe = () => {
                         <Avatar>
                             <Grid container item direction="row" justify="center" alignItems="center">
                                 <Grid item >
-                                    <SchoolIcon fontSize="large" />
+                                    {/* <SchoolIcon fontSize="large" /> */}
                                 </Grid>
                             </Grid>
                         </Avatar> 
@@ -47,7 +47,7 @@ const AboutMe = () => {
                 <Grid item xs={4}>
                     <InfoCard>
                         <Avatar>
-                            <EmojiPeopleIcon fontSize="large" />
+                            {/* <EmojiPeopleIcon fontSize="large" /> */}
                         </Avatar>
                         <Divider />
                         <Typography variant="body1">{personalInfo}</Typography>
@@ -56,7 +56,7 @@ const AboutMe = () => {
                 </Grid>                
                 <Grid item xs={6}>
                         <Avatar>
-                            <FitnessCenterIcon fontSize="large" />
+                            {/* <FitnessCenterIcon fontSize="large" /> */}
                         </Avatar>
                         <SkillsGroup language="React" level={85} logo={ReactLogo}/>
                         <SkillsGroup language="Javascript" level={80} logo={JavascriptLogo}/>

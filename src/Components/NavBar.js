@@ -1,5 +1,5 @@
 import React from 'react';
-import AirportShuttleIcon from '@material-ui/icons/AirportShuttle';
+// import AirportShuttleIcon from '@material-ui/icons/AirportShuttle';
 import { Grid, Button, Typography} from '@material-ui/core'
 const NavBar = () => {
     
@@ -7,7 +7,7 @@ const NavBar = () => {
     <div>
         <Grid container direction="row">
             <Grid item>
-                <AirportShuttleIcon fontSize='large' />
+                {/* <AirportShuttleIcon fontSize='large' /> */}
             </Grid>
             <Grid container item direction="row">
                 <Grid item>
