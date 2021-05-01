@@ -6,7 +6,7 @@ import BBLogo from '../assets/BBLogo.jpg'
 
 const useStyles = makeStyles(() => ({
     projectBackground: {
-        backgroundColor: 'rgb(186, 186, 186)',
+        backgroundColor: 'rgb(235, 235, 235)',
         paddingTop: '2em',
         paddingBottom: '4em',
     },
